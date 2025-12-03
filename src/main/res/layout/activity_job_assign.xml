@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JobAssignActivity"
+    android:background="#fff">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginVertical="5dp"
+        app:cardCornerRadius="15dp"
+        android:backgroundTint="#341077">
+
+        <TextView
+            android:id="@+id/jobasn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/notobold"
+            android:text="Job Assignments"
+            android:textColor="#F3F3F3"
+            android:textSize="30sp" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/fbutton"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/card"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#FF9800"
+        android:fontFamily="@font/notobold"
+        android:text=" 1st Shift"
+        android:textSize="25sp" />
+
+
+    <Button
+        android:id="@+id/sbutton"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/fbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="@font/notobold"
+        android:text="2nd Shift"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/tbutton"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/sbutton"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#673AB7"
+        android:fontFamily="@font/notobold"
+        android:text=" 3rd Shift"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>

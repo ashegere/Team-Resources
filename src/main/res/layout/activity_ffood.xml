@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FfoodActivity"
+    android:background="#fff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fresh Food"
+        android:textColor="#000"
+        android:fontFamily="@font/notobold"
+        android:textSize="30sp"
+        android:layout_margin="35dp"
+        />
+
+    <Button
+        android:text="Breakfast"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:fontFamily="@font/notobold"
+        android:id="@+id/bfastbtn"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/button"
+        ></Button>
+
+    <Button
+        android:text="Lunch"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:fontFamily="@font/notobold"
+        android:id="@+id/lunchbtn"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/bfastbtn"
+        android:background="@drawable/button"
+        ></Button>
+
+    <Button
+        android:text="Dinner"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:fontFamily="@font/notobold"
+        android:id="@+id/dinnerbtn"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/lunchbtn"
+        android:background="@drawable/button"
+        ></Button>
+
+
+</RelativeLayout>

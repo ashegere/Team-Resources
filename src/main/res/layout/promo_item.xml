@@ -1,0 +1,41 @@
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/promocard"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:tool="http://schemas.android.com/tools"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E3E3E3"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/postTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:textSize="30dp"
+            tool:text="This is a Sample Task in the App" />
+
+        <ImageButton
+            android:id="@+id/deletepostbtn"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#003406FF"
+            android:src="@drawable/ic_baseline_delete_24" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

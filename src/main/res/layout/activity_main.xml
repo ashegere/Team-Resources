@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colorbg"
+    tools:context=".MainActivity">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cview"
+        android:layout_width="574dp"
+        android:layout_height="926dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="35dp"
+        android:backgroundTint="#FBFBFB"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="2dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/notobold"
+                android:text="Team Resources"
+                android:textColor="#2F165C"
+                android:textSize="30sp" />
+
+
+            <Button
+                android:id="@+id/empcom"
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/notobold"
+                android:text="Communications"
+                android:textColor="#EFEFEF"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/promo"
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/notobold"
+                android:text="Promotions"
+                android:textColor="#EFEFEF"
+                android:textSize="25sp" />
+
+              <Button
+                  android:id="@+id/ffoodbtn"
+                  android:layout_width="400dp"
+                  android:layout_height="100dp"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="40dp"
+                  android:background="@drawable/button"
+                  android:fontFamily="@font/notobold"
+                  android:text="Fresh Food"
+                  android:textColor="#EFEFEF"
+                  android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/jobbtn"
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/notobold"
+                android:text="Job Assignment"
+                android:textColor="#EFEFEF"
+                android:textSize="25sp" />
+
+              <Button
+                  android:id="@+id/ctc"
+                  android:layout_width="400dp"
+                  android:layout_height="100dp"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="40dp"
+                  android:background="@drawable/button"
+                  android:fontFamily="@font/notobold"
+                  android:text="Contacts"
+                  android:textColor="#EFEFEF"
+                  android:textSize="25sp" />
+          </LinearLayout>
+
+        </ScrollView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
+
+
+
